@@ -1,0 +1,9 @@
+{
+  "llm": {
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key": "sk-请在此填入你的API密钥",
+    "model": "deepseek-chat",
+    "timeout": 120,
+    "temperature": 0.1
+  }
+}
