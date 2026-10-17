@@ -1,0 +1,5 @@
+requests>=2.31
+curl_cffi>=0.6
+PyMuPDF>=1.24
+akshare>=1.14
+pytest>=8

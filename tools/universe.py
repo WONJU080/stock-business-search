@@ -123,7 +123,8 @@ def resolve_stocks(spec, provider=None):
         return provider.resolve_sector(spec[len("板块:"):].strip())
     if spec.startswith("指数:"):
         return provider.index_constituents(spec[len("指数:"):].strip())
-    if spec in ("全A股", "全部A股", "全A", "全部", "all"):
+    low = spec.lower()
+    if low in ("全a股", "全部a股", "全a", "全部", "all"):
         return provider.all_a_shares()
     if spec in INDEX_CODE_MAP:
         return provider.index_constituents(spec)

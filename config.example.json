@@ -1,9 +1,15 @@
 {
   "llm": {
     "base_url": "https://api.deepseek.com/v1",
-    "api_key": "sk-请在此填入你的API密钥",
+    "api_key": "",
+    "api_keys": [],
     "model": "deepseek-chat",
     "timeout": 120,
-    "temperature": 0.1
+    "temperature": 0.1,
+    "retries": 3,
+    "max_tokens": 4096,
+    "max_candidates": 60,
+    "extract_max_tokens": 16000,
+    "max_concurrent": 16
   }
 }

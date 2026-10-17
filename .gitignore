@@ -1,5 +1,17 @@
 __pycache__/
 *.pyc
+.pytest_cache/
+.backups/
 config.json
 db/index.txt
 db/stocks/*.txt
+db/runs.jsonl
+db/errors.jsonl
+db/stock_universe.json
+db/*.tmp
+db/.write.lock
+db/audit-report.json
+db/reanalysis.txt
+db/*.log
+db/reanalysis*.txt
+db/retry*.txt
